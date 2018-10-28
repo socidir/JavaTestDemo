@@ -1,5 +1,6 @@
 package com.Demo.Test;
 
+import com.Demo.Test.Model.Dog;
 import com.Demo.Test.Model.Person;
 
 public class HelloWorld {
@@ -12,6 +13,8 @@ public class HelloWorld {
         p.setWeight(180);
         System.out.println(p.toString());
         System.out.println(p.standardWeight());
+        Dog d = new Dog();
+        d.Run();
     }
     public static int add(int x,int y)
     {
